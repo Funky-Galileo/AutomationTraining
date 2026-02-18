@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="32.005" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-01-29T18:58:29.524708Z">
+<testcase classname="Verifying login facebook login" name="scenario - #1.1" time="5.887">
+<system-out><![CDATA[
+Given user is on the facebook page..........................................passed
+When user enters "GreensOMR" and "hello@345"................................passed
+And user clicks login button................................................passed
+Then user should verify error message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying login facebook login" name="scenario - #1.2" time="12.365">
+<system-out><![CDATA[
+Given user is on the facebook page..........................................passed
+When user enters "Guna" and "guna@123"......................................passed
+And user clicks login button................................................passed
+Then user should verify error message.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verifying login facebook login" name="scenario2 - #1.1" time="13.603">
+<system-out><![CDATA[
+Given user is on the facebook page..........................................passed
+When user enters "OMR" and "hello@345"......................................passed
+And user clicks login button................................................passed
+Then user should verify error message.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
